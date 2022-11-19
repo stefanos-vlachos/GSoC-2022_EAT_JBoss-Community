@@ -63,6 +63,9 @@ The open source projects that were selected and finally integrated into EAT can 
 - MyCamera ([GITHUB REPO](https://github.com/stefanos-vlachos/MyCamera), [PULL REQUEST](https://github.com/EAT-JBCOMMUNITY/EAT/pull/231))
 - JKSLinks ([GITHUB REPO](https://github.com/stefanos-vlachos/JKSLinks), [PULL REQUEST 1](https://github.com/EAT-JBCOMMUNITY/EAT/pull/243))
 
+As it was mentioned earlier, one of the scopes of our team’s participation in the Google Summer of Code 2022 was to highlight the ability of EAT to support multi-version real life Android projects. The EAT project supports versioning using the @EAT annotation. When using this annotation, there is the possibility, along with the path to the server, to add the lower and upper bound of the supported versions of the servers the test case should be tested with. This feature of EAT could be exploited so that different versions of Android apps would be built based on various Android versions dynamically.
+
+In this context, for each Android project integrated into EAT, an alternative version of it was created, modifying one or more of its files. Using the @EAT annotation on the modified files, EAT was able to build different versions of each Android app, based on the Android version of the system.
 
 ### 3rd Phase ( September 2022 – November 2022)
 
